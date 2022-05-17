@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    /*align-items: center; --> Alinha ao centro*/
+    /*align-items: flex-end; --> alinha no final da pagfina*/
+    /*align-items: baseline; --> o elemento se alinh à base da linha... nesse caso posso ter um item maior que os outros
+    e os menores se alinharam, a base dele*/
+    /*align-items: stretch; --> é que vem por padrão. Os elementos se esticam para preecherem o container pai*/
+    align-items: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+}
+/*
+@media(min-width:480px){
+    div{
+        background-color: blue;
+        width: 80%;
+    }
+}
+@media (min-width:768px){
+    div{
+        background-color: green;
+        width: 50%;
+    }
+    }
+
+@media (min-width:1279px){
+    div{
+        background-color: yellow;
+        width: 40%;
+    }
+    }*/
